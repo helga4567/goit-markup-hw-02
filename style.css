@@ -1,0 +1,124 @@
+
+
+/* переменные */
+:root {
+ --primary-color: #000000;
+ --secondory-color: #FFFFFF;
+ --third-color: #2F303A;
+ --text-main-color:#212121;
+ --text-secondary-color:#757575;
+ --accent-color: #2196F3; 
+ --secondary-font: "raleway";  
+ /* --normal-font: 400; */
+ --medium-font: 500;
+ --bold-font: 700;
+ --bolder-font: 900;
+ --primary-font-size: 16px;
+ --secondary-font-size: 14px;
+}
+/* сенантичекое скрытие элементов */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  .list-style{
+    list-style: none;
+  }
+  .item-centr{
+   align-items: center;
+  }
+
+  /* main data */
+.body {
+  font-family: "roboto", sans-serif;
+  background-color: #FFFFFF;
+  }
+.content{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* header */
+.header,.menu {
+  display: flex;
+  align-items: center;
+}
+.header-logo{
+text-decoration: none;
+color: var(--primary-color);
+font-family: "raleway";
+font-size: 26px;
+margin-right: 93px;
+}
+.web{
+color: var(--accent-color);
+}
+.menu-list{
+  list-style: none;
+  display: flex;
+}
+
+.menu-item{
+  font-family: var(--primary-color);
+  font-size: var(--secondary-font-size);
+  Line-height: 1.14;
+  margin-right: 50px;
+}
+.menu-list:last-child{
+  margin-right: 0;
+  margin-left: 120px;
+}
+
+.menu-link{
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.active-link{
+color: var(--accent-color);
+}
+
+.header-contacts{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header-email,.header-phone{
+ text-decoration: none;
+ color: var(--text-secondary-color);
+}
+.header-email:hover{
+color: var(--accent-color);
+}
+.header-phone:hover{
+  color: var(--accent-color);
+}
+.header-email{
+  margin-right: 50px;
+}
+/* main */
+/* <!--эффективные решения --> */
+.main{
+background-color: var(--third-color);
+width: 1600px 600px;
+}
+.main-text{
+  align-items: center;
+}
+/* наши особенности */
+/* чем мы занимаемся */
+/* наша команда */
+
+/* footer */
+
+/* portgolio */
+/* main */
+/* навигация кнопки */
+/* наши работы */
