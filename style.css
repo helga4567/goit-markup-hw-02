@@ -42,7 +42,7 @@
   background-color: #FFFFFF;
   }
 .content{
-  width: 1170px;
+  width: 1180px;
   margin: 0 auto;
 }
 
@@ -51,12 +51,16 @@
   display: flex;
   align-items: center;
 }
+.header{
+width: 1600px;
+/* padding-right: 215px; */
+}
 .header-logo{
 text-decoration: none;
 color: var(--primary-color);
 font-family: "raleway";
 font-size: 26px;
-margin-right: 93px;
+padding-left: 215px;
 }
 .web{
 color: var(--accent-color);
@@ -74,7 +78,7 @@ color: var(--accent-color);
 }
 .menu-list:last-child{
   margin-right: 0;
-  margin-left: 120px;
+  margin-left: 93px;
 }
 
 .menu-link{
@@ -89,6 +93,7 @@ color: var(--accent-color);
   list-style: none;
   display: flex;
   align-items: center;
+  font-size: var(--secondary-font-size);
 }
 .header-email,.header-phone{
  text-decoration: none;
@@ -102,16 +107,51 @@ color: var(--accent-color);
 }
 .header-email{
   margin-right: 50px;
+  margin-left: 250px;
+}
+.header-phone{
+font-weight: var(--medium-font);
 }
 /* main */
 /* <!--эффективные решения --> */
 .main{
 background-color: var(--third-color);
-width: 1600px 600px;
+width: auto;
+height: 600px;
+}
+.main{
+  text-align: center
 }
 .main-text{
-  align-items: center;
+color: var(--secondory-color);
+font-weight: var(--bolder-font);
+line-height: 1.36;
+font-size: 44px;
+width: 696px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 30px;
+padding-top: 200px;
 }
+.button{
+  background-color: var(--accent-color);
+  color: var(--secondory-color);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+.button:hover{
+background-color: var(--secondory-color);
+color: var(--primary-color);
+border: 1px solid var(--primary-color);
+}
+/* .button{
+box-shadow:4px 4px 4px 4px #2196F3 ;
+} */
+
 /* наши особенности */
 /* чем мы занимаемся */
 /* наша команда */
@@ -119,6 +159,25 @@ width: 1600px 600px;
 /* footer */
 
 /* portgolio */
-/* main */
 /* навигация кнопки */
+.menu-button{
+  margin-right: 280px;
+  margin-left: 280px;
+  margin-bottom: 34px;
+  padding-top: 94px;
+}
+.blue-button{
+background-color: var(--accent-color);
+color: var(--secondory-color);
+border: none;
+padding: 6px 22px;
+border-radius: 4px;
+cursor: pointer;
+}
+.blue-button:hover{
+background-color: var(--secondory-color);
+color: var(--primary-color);
+border: 1px solid var(--primary-color);
+}
+
 /* наши работы */
