@@ -8,6 +8,7 @@
  --text-main-color:#212121;
  --text-secondary-color:#757575;
  --accent-color: #2196F3; 
+ --button-color: #F5F4FA;
  --secondary-font: "raleway";  
  /* --normal-font: 400; */
  --medium-font: 500;
@@ -39,10 +40,10 @@
   /* main data */
 .body {
   font-family: "roboto", sans-serif;
-  background-color: #FFFFFF;
+  background-color: E5E5E5;
   }
 .content{
-  width: 1170px;
+  width: 1180px;
   margin: 0 auto;
 }
 
@@ -51,12 +52,16 @@
   display: flex;
   align-items: center;
 }
+.header{
+width: 1600px;
+/* padding-right: 215px; */
+}
 .header-logo{
 text-decoration: none;
 color: var(--primary-color);
 font-family: "raleway";
 font-size: 26px;
-margin-right: 93px;
+padding-left: 215px;
 }
 .web{
 color: var(--accent-color);
@@ -72,14 +77,18 @@ color: var(--accent-color);
   Line-height: 1.14;
   margin-right: 50px;
 }
+
 .menu-list:last-child{
   margin-right: 0;
-  margin-left: 120px;
+  margin-left: 93px;
 }
 
 .menu-link{
   color: var(--primary-color);
   text-decoration: none;
+}
+.menu-link:hover{
+  color: var(--accent-color);
 }
 .active-link{
 color: var(--accent-color);
@@ -89,6 +98,7 @@ color: var(--accent-color);
   list-style: none;
   display: flex;
   align-items: center;
+  font-size: var(--secondary-font-size);
 }
 .header-email,.header-phone{
  text-decoration: none;
@@ -102,23 +112,107 @@ color: var(--accent-color);
 }
 .header-email{
   margin-right: 50px;
+  margin-left: 250px;
+  line-height: 2;
+}
+.header-phone{
+font-weight: var(--medium-font);
 }
 /* main */
 /* <!--эффективные решения --> */
 .main{
 background-color: var(--third-color);
-width: 1600px 600px;
+width: auto;
+height: 600px;
+}
+.main{
+  text-align: center
 }
 .main-text{
-  align-items: center;
+color: var(--secondory-color);
+font-weight: var(--bolder-font);
+line-height: 1.36;
+font-size: 44px;
+width: 696px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 30px;
+padding-top: 200px;
 }
+
+.button{
+  background-color: var(--accent-color);
+  color: var(--secondory-color);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 32px;
+  cursor: pointer;
+  line-height: 1.6;
+}
+
 /* наши особенности */
 /* чем мы занимаемся */
 /* наша команда */
 
 /* footer */
+.footer{
+  background-color: var(--third-color);
+  width: auto;
+  height: 600px;
+  padding-left: 215px;
+  padding-top: 60px;
+}
+.footer-logo{
+text-decoration: none;
+color: var(--secondory-color);
+font-family: "raleway";
+font-size: 26px;
+line-height: 1.17;
+}
+
+.footer-contacts{
+text-decoration: none;
+font-size: var(--secondary-font-size);
+color: var(--secondory-color);
+line-height: 1.7;
+margin-bottom: 9px;
+font-style: normal;
+}
+.footer-con{
+list-style: none;
+padding-left: 0px;
+}
+.footer-contacts:hover{
+color: var(--accent-color); 
+}
 
 /* portgolio */
-/* main */
 /* навигация кнопки */
+.menu-button{
+  margin-right: 280px;
+  margin-left: 495px;
+  margin-bottom: 34px;
+  padding-top: 94px;
+}
+.button-grey{
+background-color: var(--button-color);
+color: var(--primary-color);
+border: none;
+padding: 6px 22px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 8px;
+line-height: 1.6;
+}
+.button-grey:hover{
+background-color: var(--accent-color);
+color: var(--secondory-color);
+border: none;
+}
+.button-grey{
+box-shadow:1px 1px 2px 1px #757575;
+}
 /* наши работы */
+ 
